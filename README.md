@@ -33,7 +33,9 @@ http://<yourserver>/backdoor.php?cmd=ls
 This would execute the ls command on the server, displaying the contents of the current directory.
 
 DISCLAIMER
-This script is NOT intended for malicious use. Use this only in controlled environments, such as penetration testing or educational labs, where you have explicit permission to test for vulnerabilities. Unauthorized access to systems is illegal.
+This script is NOT intended for malicious use. Use this only in controlled environments,
+such as penetration testing or educational labs, where you have explicit permission to
+test for vulnerabilities. Unauthorized access to systems is illegal.
 
 To use:
 Clone this repository or copy the script to your local machine.
